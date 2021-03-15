@@ -3,7 +3,25 @@
 }
 
 [class*=col-]{
+  height: 150px;
+  line-height: 150px;
   float: left;
-  background-color: lightblue;
-  border: solid black;
+  background-color: #FEC0CB;
+  text-align: center;
+  border: solid 0.5px black;
+}
+
+body:last-child .col-6 .col-2{
+  background-color: #F08080;
+  border:solid 0.5px #FEC0CB;
+}
+
+body:last-child .col-6 .col-8{
+  background-color: #F08080;
+  border:solid 1px #FEC0CB ;
+}
+
+body:last-child .col-6 .col-6{
+  background-color: #F08080;
+  border:solid 1px #FEC0CB ;
 }
