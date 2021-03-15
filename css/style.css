@@ -13,15 +13,17 @@
 
 body:last-child .col-6 .col-2{
   background-color: #F08080;
-  border:solid 0.5px #FEC0CB;
+  border:solid 4px #FEC0CB;
+  line-height: 20px;
+  padding-top: 60px;
 }
 
 body:last-child .col-6 .col-8{
   background-color: #F08080;
-  border:solid 1px #FEC0CB ;
+  border:solid 4px #FEC0CB ;
 }
 
 body:last-child .col-6 .col-6{
   background-color: #F08080;
-  border:solid 1px #FEC0CB ;
+  border:solid 4px #FEC0CB ;
 }
