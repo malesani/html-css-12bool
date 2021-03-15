@@ -1,0 +1,9 @@
+.body{
+  background-color: #ffff;
+}
+
+[class*=col-]{
+  float: left;
+  background-color: lightblue;
+  border: solid black;
+}
